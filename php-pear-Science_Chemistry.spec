@@ -1,7 +1,9 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		Science
 %define		_subclass	Chemistry
+%define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
+
 Summary:	%{_pearname} - manipulate chemical objects: atoms, molecules, etc
 Summary(pl):	%{_pearname} - manipulacje na klasach obiektów chemicznych
 Name:		php-pear-%{_pearname}
@@ -9,8 +11,8 @@ Version:	1.1.0
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
-# Source0-md5:	6ee17eb8ac2b67b31bbf5e222739000c
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
+# Source0-md5:	6ee17eb8ac2b67b31bbf5e222739000c
 URL:		http://pear.php.net/package/Science_Chemistry/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
@@ -22,11 +24,15 @@ General classes to represent Atoms, Molecules and Macromolecules. Also
 parsing code for PDB, CML and XYZ file formats. Examples of parsing
 and conversion to/from chemical structure formats.
 
+This class has in PEAR status: %{_status}.
+
 %description -l pl
 Ogólna klasa reprezentuj±ca atomy, moleku³y oraz makromoleku³y. Tak¿e
 parsowanie kodu w formatach PDB, CML oraz XYZ. Zawiera w dokumentacji
 przyk³ady parsowania oraz konwersji z/do formatów struktur
 chemicznych.
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
