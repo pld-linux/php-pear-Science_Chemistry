@@ -5,12 +5,11 @@
 Summary:	%{_class}_%{_subclass} - manipulate chemical objects: atoms, molecules, etc.
 Summary(pl):	%{_class}_%{_subclass} - manipulacje na klasach objektów chemicznych
 Name:		php-pear-%{_pearname}
-Version:	1.0.2
+Version:	1.0.3
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-Patch0:		%{name}-Element_fix.patch
 URL:		http://pear.php.net/
 BuildRequires:	rpm-php-pearprov
 Requires:	php-pear
@@ -30,7 +29,6 @@ chemicznych.
 
 %prep
 %setup -q -c
-%patch0 -p1
 
 %install
 rm -rf $RPM_BUILD_ROOT
