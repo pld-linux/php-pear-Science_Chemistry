@@ -24,7 +24,7 @@ General classes to represent Atoms, Molecules and Macromolecules. Also
 parsing code for PDB, CML and XYZ file formats. Examples of parsing
 and conversion to/from chemical structure formats.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Ogólna klasa reprezentuj±ca atomy, moleku³y oraz makromoleku³y. Tak¿e
