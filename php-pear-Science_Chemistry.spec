@@ -3,7 +3,7 @@
 %define		_subclass	Chemistry
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_pearname} - manipulate chemical objects: atoms, molecules, etc
-Summary(pl):	%{_pearname} - manipulacje na klasach objektów chemicznych
+Summary(pl):	%{_pearname} - manipulacje na klasach obiektów chemicznych
 Name:		php-pear-%{_pearname}
 Version:	1.1.0
 Release:	1
