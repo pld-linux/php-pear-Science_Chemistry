@@ -43,7 +43,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc %{_pearname}-%{version}/%{_subclass}/{{doc,test}/*,README*,TODO}
+%doc %{_pearname}-%{version}/%{_subclass}/{test,README,TODO}
 %dir %{php_pear_dir}/%{_class}/%{_subclass}/
 %{php_pear_dir}/%{_class}/*.php
 %{php_pear_dir}/%{_class}/%{_subclass}/*.php
