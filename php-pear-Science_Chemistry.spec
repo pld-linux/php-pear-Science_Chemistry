@@ -8,7 +8,7 @@ Summary:	%{_pearname} - manipulate chemical objects: atoms, molecules, etc
 Summary(pl):	%{_pearname} - manipulacje na klasach obiektów chemicznych
 Name:		php-pear-%{_pearname}
 Version:	1.1.0
-Release:	3
+Release:	4
 Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
