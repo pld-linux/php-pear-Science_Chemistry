@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - manipulate chemical objects: atoms, molecules, etc
-Summary(pl):	%{_pearname} - manipulacje na klasach obiektÛw chemicznych
+Summary(pl.UTF-8):   %{_pearname} - manipulacje na klasach obiekt√≥w chemicznych
 Name:		php-pear-%{_pearname}
 Version:	1.1.0
 Release:	4
@@ -29,17 +29,17 @@ and conversion to/from chemical structure formats.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-OgÛlna klasa reprezentuj±ca atomy, moleku≥y oraz makromoleku≥y. Takøe
+%description -l pl.UTF-8
+Og√≥lna klasa reprezentujƒÖca atomy, moleku≈Çy oraz makromoleku≈Çy. Tak≈ºe
 parsowanie kodu w formatach PDB, CML oraz XYZ. Zawiera w dokumentacji
-przyk≥ady parsowania oraz konwersji z/do formatÛw struktur
+przyk≈Çady parsowania oraz konwersji z/do format√≥w struktur
 chemicznych.
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
@@ -48,7 +48,7 @@ AutoProv:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
