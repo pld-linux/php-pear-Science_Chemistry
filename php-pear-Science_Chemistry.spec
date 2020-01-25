@@ -1,6 +1,5 @@
 %define		status		stable
 %define		pearname	Science_Chemistry
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - manipulate chemical objects: atoms, molecules, etc
 Summary(pl.UTF-8):	%{pearname} - manipulacje na klasach obiektów chemicznych
 Name:		php-pear-%{pearname}
